@@ -74,7 +74,7 @@ ENTRYPOINT ["java","-jar","/app.jar"]
    ```
 
 4. **Desplegar en Render**
-   - Crear un Nuevo Servicio Web: inicia sesión en tu cuenta de Render, haz clic en el botón New y selecciona Web Service.
+   - Crear un Nuevo Servicio Web: Inicia sesión en tu cuenta de Render, haz clic en el botón New y selecciona Web Service.
    - Configurar el Servicio Web: En la sección Connect, elige Docker, para Docker Repository, ingresa la ruta a tu imagen Docker: docker.io/tu-usuario-dockerhub/mi-aplicacion-spring-boot. Establece el Port en 8080. Haz clic en Create Web Service.
    - Desplegar: Render descargará la imagen Docker e iniciará el proceso de despliegue. Una vez que el despliegue esté completo, verás una URL donde tu aplicación estará funcionando.
 
