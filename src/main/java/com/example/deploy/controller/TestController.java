@@ -12,4 +12,9 @@ public class TestController {
     public String testGetDeploy() {
         return "This is a Test Get Deploy";
     }
+
+    @GetMapping(path = "/test2")
+    public String testGet2() {
+        return "This is a Test 2";
+    }
 }
