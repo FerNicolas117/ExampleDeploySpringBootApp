@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping(path = "/testGet")
     public String testGetDeploy() {
-        return "This Test Get Deploy";
+        return "This is a Test Get Deploy";
     }
 }
